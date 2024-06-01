@@ -136,7 +136,7 @@ const isParTwo = function (num1) {
     return num1 % 2 == 0
 }
 
-console.log(isParTwo(52))
+// console.log(isParTwo(52))
 
 // ejecutar una función
 
@@ -152,6 +152,14 @@ console.log(isParTwo(52))
 const resta = (num1, num2) => num1 - num2
 
 
-console.log(suma(resta(15, 35), multi(suma(10, 15), resta(25, 5))))
+// console.log(suma(resta(15, 35), multi(suma(10, 15), resta(25, 5))))
 
+// let numRandom = Math.floor(Math.random() * 4) + 1 // 1 - 5 
+// console.log(numRandom)
+
+//loops - bucles
+
+for (let num = 0; num < 10; num++) {
+    console.log(num)
+}
 
